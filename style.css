@@ -1,0 +1,137 @@
+/* Set html height 100% */
+html {
+  height: 170%;
+}
+
+/* first page */
+
+.first {
+  background-image: linear-gradient(to bottom, #a2b3fd, rgb(235, 104, 139));
+}
+
+/* second page */
+
+.second {
+  background-image: url("background-image.png");
+}
+
+/* image */
+
+img {
+  vertical-align: middle;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+/* h3 */
+
+h3 {
+  padding-left: 200px;
+  position: absolute;
+  top: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+h5 {
+  padding-left: 200px;
+  position: absolute;
+  top: 60px;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  padding-left: 200px;
+  position: absolute;
+  top: 90px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* table 1 & tow */
+
+table,
+th,
+td {
+  width: 1000px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #135321;
+  margin-top: 30px;
+}
+.table1 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.table2 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  left: 200px;
+}
+th {
+  text-align: left;
+}
+td {
+  text-align: left;
+}
+
+/* button contact */
+
+.button {
+  display: inline-block;
+  padding: 13px 17px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #db2b1e;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 5px #999;
+  position: relative;
+  left: 570px;
+}
+
+.button:hover {
+  background-color: #8e3e3e;
+}
+
+.button:active {
+  background-color: #7c5dd9;
+  box-shadow: 0 5px rgb(100, 99, 99);
+  transform: translateY(4px);
+}
+
+/* form */
+
+.form {
+  text-align: center;
+}
+
+input {
+  width: 50%;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* message */
+
+textarea {
+  width: 150%;
+  height: 150px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+/* hr */
+
+hr.new1 {
+  border-top: 1px dotted red;
+}
